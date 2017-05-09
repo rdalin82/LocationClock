@@ -13,24 +13,32 @@ As of 5/8/2017 per the documentation on earthtools.org Daylight Savings Time (DS
 # Ruby and Rails Versions
 
 Ruby 2.2.1
+
 Rails 4.2.7.1
 
 # Dependencies
 
 ## Test Level
 
-rspec-rails, '~> 3.5'
+rspec-rails, ~> 3.5
+
 capybara
+
 factory_girl_rails
+
 capybara-screenshot
 
 
 ## Project Level
 
-nokogiri, '~> 1.6', '>= 1.6.8'
+nokogiri, ~> 1.6
+
 simple_form
-bootstrap-sass, '~> 3.3.6'
-sass-rails, '>= 3.2'
+
+bootstrap-sass, ~> 3.3.6
+
+sass-rails, >= 3.2
+
 puma
 
 # Getting Started
