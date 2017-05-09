@@ -1,0 +1,7 @@
+<div class="form-group">
+  <%= simple_form_for(@time_request, method: :post, html: {class: 'form-inline'}) do |form| %>
+    <%= form.input :latitude %>
+    <%= form.input :longitude %>
+    <%= form.button :submit, "Submit", class: 'btn btn-primary' %>
+  <% end %>
+  </div>

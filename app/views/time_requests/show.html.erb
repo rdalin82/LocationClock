@@ -1,0 +1,8 @@
+<div class="jumbotron">
+  <div class="container">
+    <div class="span 12 text-center">
+      <h2 id="time">Local Time: <%= @time_request.current_time.strftime("%B %d %Y %I:%M:%S %p") %></h2>
+      <%= render "form" %>
+    </div>
+  </div>
+</div>
