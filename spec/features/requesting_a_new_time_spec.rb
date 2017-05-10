@@ -4,8 +4,9 @@ RSpec.describe "requesting a new time" do
 
   before do
     visit "/"
-    stub_params = {:latitude=>40.71417, :longitude=>-74.00639, :request_session=>"1234", :current_time=>DateTime.now}
-    allow_any_instance_of(TimeRequestAPI).to receive(:params).and_return(stub_params)
+    stub_response = Nokogiri::XML(File.open("#{Rails.root}/spec/data/response.xml") )
+    allow_any_instance_of(TimeAPI).to receive(:request_session).and_return("1234")
+    allow_any_instance_of(TimeAPI).to receive(:response).and_return(stub_response)
   end
 
   context "with valid data" do

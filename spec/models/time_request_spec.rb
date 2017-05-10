@@ -5,7 +5,7 @@ RSpec.describe TimeRequest, type: :model do
   context "valid request" do
     let(:request) { FactoryGirl.create(:time_request)}
 
-    it "should have a valid instance" do
+    it "should save a valid instance" do
       expect(request.save).to be true
     end
   end

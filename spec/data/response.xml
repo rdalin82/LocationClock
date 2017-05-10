@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<timezone xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.earthtools.org/timezone.xsd">
+  <version>1.0</version>
+  <location>
+    <latitude>40.71417</latitude>
+    <longitude>-74.00639</longitude>
+  </location>
+  <offset>-5</offset>
+  <suffix>R</suffix>
+  <localtime>9 May 2017 18:50:33</localtime>
+  <isotime>2017-05-09 18:50:33 -0500</isotime>
+  <utctime>2017-05-09 23:50:33</utctime>
+  <dst>Unknown</dst>
+</timezone>
